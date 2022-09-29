@@ -17,6 +17,7 @@ $(function(){
     autoplaySpeed: 3000,
     asNavFor: '.slider__slider',
     dots: false,
+    arrows: false,
     centerMode: true,
     focusOnSelect: true
   });
