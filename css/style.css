@@ -222,6 +222,7 @@ a{
   border: 1px solid #FFBDAF;
   width: 1220px;
   margin: 0 auto;
+  opacity: .5;
 }
 .description{
   background-color: #F2F7FC;
@@ -283,7 +284,7 @@ a{
   margin-left: -110px;
 }
 .inner-item__link a{
-  margin-left: 25px;
+  margin-left: 20px;
 }
 .inner-item__link::before{
   content: '';
@@ -293,8 +294,78 @@ a{
   height: 25px;
   margin-top: 2px;
   cursor: pointer;
+  margin-left: -5px;
 }
 .inner-item__link:hover{
   color: #003E6C;
   transition: .3s;
+}
+.why{
+  background-color: #F2F7FC;
+}
+.why__title{
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: #003E6C;
+  margin-bottom: 160px;
+}
+.why__inner{
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.why__inner-item{
+  max-width: 200px;
+}
+.why__inner-item--acters::before{
+  content: '';
+  background-image: url(../images/why/acters.svg);
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin-top: -107px;
+  margin-left: 25px;
+}
+.why__inner-item--details::before{
+  content: '';
+  background-image: url(../images/why/details.svg);
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin-top: -107px;
+  margin-left: 5px;
+}
+.why__inner-item--projects::before{
+  content: '';
+  background-image: url(../images/why/projects.svg);
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin-top: -107px;
+  margin-left: -10px;
+}
+.why__inner-item--work::before{
+  content: '';
+  background-image: url(../images/why/work.svg);
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin-top: -107px;
+  margin-left: 5px;
+}
+.why__inner-item--experience::before{
+  content: '';
+  background-image: url(../images/why/experience.svg);
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin-top: -107px;
+  margin-left: 25px;
+}
+.button__link-why{
+  margin-bottom: 100px;
 }
