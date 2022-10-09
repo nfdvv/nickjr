@@ -8,7 +8,15 @@ $(function(){
     autoplay: true,
     autoplaySpeed: 3000,
     fade: true,
-    asNavFor: '.slider__nav'
+    asNavFor: '.slider__nav',
+    responsive: [
+      {
+        breakpoint: 1500,
+        settings: {
+          arrows: false
+        }
+      }
+    ]
   });
   $('.slider__nav').slick({
     slidesToShow: 3,
@@ -19,10 +27,24 @@ $(function(){
     dots: false,
     arrows: false,
     centerMode: true,
-    focusOnSelect: true
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 960,
+        settings: {
+          slidesToShow: 2
+        }
+      }
+    ]
   });
 
-  $('.header__menu-btn').on('click', function(){
+  $('.header__btn').on('click', function(){
     $('.header__menu > ul').slideToggle();
   });
+
+  $('.header__drop-down.drop-down').on('click', function(){
+    $(this).children('.drop-down__list').slideToggle();
+  });
+
+  
 });
