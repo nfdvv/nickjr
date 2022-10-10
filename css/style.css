@@ -465,6 +465,9 @@ li{
 .footer__list{
   text-align: center;
 }
+.footer__list li{
+  display: block;
+}
 .footer__link{
   margin-bottom: 20px;
   font-weight: 500;

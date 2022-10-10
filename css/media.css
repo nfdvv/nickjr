@@ -65,6 +65,27 @@
   .description__inner{
     flex-wrap: wrap;
     margin-top: -140px;
+    padding-bottom: 60px;
+  }
+  .why__inner{
+    flex-wrap: wrap;
+  }
+  .why__inner-item{
+    margin-right: 20px;
+    margin-bottom: 150px;
+    width: 400px;
+  }
+  .why__inner{
+    margin-bottom: 0;
+  }
+  .footer__inner{
+    flex-wrap: wrap;
+  }
+  .footer__inner-about{
+    margin-right: 20px;
+  }
+  .footer__inner-navigation{
+    margin-right: 20px;
   }
 }
 @media (max-width: 910px){
@@ -86,6 +107,9 @@
     width: 100%;
     margin: 0 auto;
     margin-bottom: 30px;
+  }
+  .footer__inner-item{
+    margin: 0 auto;
   }
 }
 @media (max-width: 780px){
